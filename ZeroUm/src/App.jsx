@@ -2,10 +2,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Vagas from "./pages/Vagas";
-import Perfil from "./pages/Perfil";
-import Login from "./pages/Login";
+import Perfil from "./pages/Perfil/Perfil";
+import Login from "./pages/Login/Login";
 
 function App() {
   return (

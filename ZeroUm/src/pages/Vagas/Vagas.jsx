@@ -1,4 +1,4 @@
-import VagaCard from "../components/VagaCard/VagaCard";
+import VagaCard from "../../components/VagaCard/VagaCard";
 
 const vagas = [
     {

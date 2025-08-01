@@ -21,6 +21,8 @@ const vagas = [
         descricao: "Criação de peças gráficas para campanhas publicitárias e redes sociais.",
         requisitos: "Conhecimento em Adobe Photoshop e Illustrator.",
         link: "https://example.com/vaga3"
+
+        
     }
 ]
 

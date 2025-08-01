@@ -1,0 +1,59 @@
+
+.vaga-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.vaga-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.vaga-card h3 {
+  font-size: 20px;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.vaga-card p {
+  margin: 4px 0;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.vaga-card p strong {
+  color: #222;
+}
+
+.vaga-card a {
+  align-self: flex-start;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.vaga-card a:hover {
+  color: #005fa3;
+}
+
+.vaga-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  right: 50px;
+}

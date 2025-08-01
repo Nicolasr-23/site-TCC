@@ -1,6 +1,7 @@
+import './VagaCard.css'
 function VagaCard({ vaga }) {
-  return (
-    <div className="vaga-card">
+  return ( 
+     <div className="vaga-card">
       <h3>{vaga.titulo}</h3>
       <p><strong>Empresa:</strong>{vaga.empresa}</p>
       <p><strong>Descrição:</strong> {vaga.descricao}</p>
